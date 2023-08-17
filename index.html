@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>n to ligado</title>
+</head>
+<body>
+    <header>
+    <h1>Formulário INÚTIL</h1>
+    </header>
+    <br> 
+
+    <form action="#" method="post">
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="nome" name="nome" required><br><br>
+    
+    
+    <label for="idade">Idade:</label><br>
+    <input type="number" id="idade" name="idade" required><br><br>
+    
+    <label for="grupo">Grupo/Cantor Preferido:</label><br>
+    <input type="text" id="grupo" name="grupo"><br><br>
+    
+    <label for="jogo">Jogo Preferido:</label><br>
+    <input type="text" id="jogo" name="jogo"><br><br>
+    
+    <label for="comida">Comida Favorita:</label><br>
+    <input type="text" id="comida" name="comida"><br><br>
+    
+    <label for="passatempo">Passatempo Favorito:</label><br>
+    <input type="text" id="passatempo" name="passatempo"><br><br>
+    
+    <input type="submit" value="Enviar">
+</form>
+<style>
+    
+  @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e2e2e2;
+}
+
+header {
+   background: rgb(51,51,51);
+background: linear-gradient(90deg, rgb(37, 37, 37) 0%, rgb(99, 98, 98) 50%, rgb(160, 160, 160) 100%);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    font-family: "Questrial";
+}
+
+form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: "Questrial";
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+@media (min-width: 1024px) {
+    form {
+        max-width: 600px; /* Ajuste conforme necessário */
+        margin: 0 auto;
+    }
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 767px) {
+    form {
+        padding: 10px;
+    }
+    
+    input[type="text"],
+    input[type="number"] {
+        padding: 8px;
+    }
+}
+</style>
+</body>
+</html>
